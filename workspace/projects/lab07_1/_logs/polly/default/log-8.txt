@@ -1,0 +1,14 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/yury/ShubA-13/workspace/projects/lab07_1]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/yury/ShubA-13/workspace/projects/lab07_1]> "cmake" "--version"
+cmake version 3.16.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
