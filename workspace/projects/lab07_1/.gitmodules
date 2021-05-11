@@ -1,6 +1,0 @@
-[submodule "tools/polly"]
-	path = tools/polly
-	url = https://github.com/ruslo/polly
-[submodule "tools/tools"]
-	path = tools/tools
-	url = https://github.com/ruslo/polly
