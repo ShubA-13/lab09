@@ -1,0 +1,20 @@
+language: cpp
+services:
+- docker
+compiler:
+- gcc
+- clang
+
+addons:
+apt:
+ sources:
+  - ubuntu-toolchain-r-test
+  - llvm-toolchain-precise-3.7
+ packages:
+  - cmake
+  - cmake-data
+  - clang-3.7
+  - g++-7
+
+script:
+- docker build -t logger .
